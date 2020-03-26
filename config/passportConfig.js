@@ -1,6 +1,6 @@
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
-const User = require("../models/User");
+const User = require("../models/user.model");
 
 /*
  * Passport "serializes" objects to make them easy to store, converting the
